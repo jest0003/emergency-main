@@ -17,7 +17,8 @@
   background-color: var(--headline-bg-color-inverted);
   color: var(--headline-color-inverted);
   padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 1rem;
-  margin: 0 0 0.5rem 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .daily_text p {
   padding-right: 2rem;
@@ -40,6 +41,7 @@
   /* border: 1px solid var(--border-color); */
   height: minmax(300px, min-content);
 }
+
 .news_card:nth-child(2n) {
   background-color: var(--news-background-color-inverted);
 }
@@ -60,8 +62,8 @@
   font-size: var(--headline3-size);
   text-align: center;
   line-height: 1rem;
-  padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 0;
-  /* margin: 0 0 1rem 0; */
+  padding: 1.3rem;
+  margin-top: 25px;
 }
 .news_card:first-child {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
@@ -98,3 +100,4 @@
   content: "\2192";
   margin-left: 0.5rem;
 }
+

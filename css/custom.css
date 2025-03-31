@@ -18,7 +18,7 @@
   /* Borders */
   --border-color: #007bff; /* used */
   --border-color-light: #f7f5c2; /* used */
-  --border-radius: 0.25rem;
+  --border-radius: 37px;
 
   /* Links */
   --link-color: #84888e; /* used */
@@ -28,19 +28,19 @@
   /* From styletile */
 
   /* Fonts */
-  --logotype-font: "Roboto", sans-serif;
-  --headline-font: "Roboto", sans-serif;
-  --body-font: "Roboto", sans-serif;
-  --link-font: "Calibri", sans-serif;
+  --logotype-font: "rubik_b";
+  --headline-font: "rubik_b";
+  --body-font: "rubik_r";
+  --link-font: "rubik_l";
 
   /* Text sizes */
   --logotype-size: 48px;
   --headline1-size: 48px;
   --headline2-size: 36px;
-  --headline3-size: 32px;
+  --headline3-size: 32px; /*h3 reagerer ikke på text størrelse skift?!*/
   --bodytext-size: 20px;
   --cta-text-size: 20px;
-  --followup-text-size: 20px;
+  --followup-text-size: 48px;
   --form-submit-size: 16px;
 
   /* Text colors */
@@ -48,7 +48,7 @@
   --headline-color: #ffffff;
   --headline-color-inverted: #ffffff;
   --bodytext-color: #ff00ee;
-  --bodytext-color-inverted: #f700ff;
+  --bodytext-color-inverted: #ff0000;
   --cta-text-color: #fffae2;
   --cta-text-color-inverted: #000000;
   --followup-text-color: #000000;
@@ -59,32 +59,32 @@
 
   /* Background colors */
   --logotype-background-color: #000000;
-  --header-background-color: #6f90eb;
-  --article-background-color: #fffae2;
-  --main-disclamer-background-color: #ff4b00;
-  --daily-background-color: #ffffff;
-  --news-background-color: #ff00cc;
-  --news-background-color-inverted: #dbe2f5;
+  --header-background-color: #FBAFCB;
+  --article-background-color: #cbf4fc;
+  --main-disclamer-background-color: #F72682;
+  --daily-background-color: #81e6b5;
+  --news-background-color: #ff0000;
+  --news-background-color-inverted: #FBAFCB;
   --info-background-color: #dbe2f5;
-  --h-cta-text-bg-color: #FFFAE2;
-  --headline-bg-color: #ff0095;
-  --headline-bg-color-alert: #ff4b00;
+  --h-cta-text-bg-color: #F72682;
+  --headline-bg-color: #ff0000;
+  --headline-bg-color-alert: #F72682;
   --headline-bg-color-inverted: #000000;
-  --bodytext-bg-color: #ff00e6;
-  --bodytext-bg-color-inverted: #fb00ff;
-  --cta-text-bg-color: #ff00ee;
-  --cta-text-bg-color-inverted: #ff00bf;
-  --followup-text-bg-color: #ffa680;
-  --followup-text-bg-color-inverted: #ff00f7;
-  --form-background-color: #ff00fb;
+  --bodytext-bg-color: #ff0000;
+  --bodytext-bg-color-inverted: #ff0000;
+  --cta-text-bg-color: #F72682; /*header cta knapper, ins og reg?!!*/
+  --cta-text-bg-color-inverted: #ff0000;
+  --followup-text-bg-color: #6d6d6d; /*CTA baggrund*/
+  --followup-text-bg-color-inverted: #ff0000;
+  --form-background-color: #ff0000;
   --form-text-color: #000000;
-  --formfield-background-color: #ff00e6;
-  --formfield-background-color-active: #ff00cc;
-  --form-submit-bg-color: #ff4b00;
-  --form-submit-bg-color-inverted: #ff00d9;
-  --primary-bg-color: #fceb94;
+  --formfield-background-color: #ff0000;
+  --formfield-background-color-active: #ff0000;
+  --form-submit-bg-color: #ff0000;
+  --form-submit-bg-color-inverted: #ff0000;
+  --primary-bg-color: #d6affb;
 
   /* Info-boxes */
-  --info-bg-color-yellow: #fceb94;
-  --info-bg-color-green: #def5db;
+  --info-bg-color-yellow: #cbf4fc;
+  --info-bg-color-green: #dbc8fa;
 }
