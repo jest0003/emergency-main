@@ -1,7 +1,6 @@
 :root {
   /* Colours */
   --primary-bg-color: #e8ebee; /* used */
-  --primary-font-color: #474d52; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
   --secondary-font-color: #d5e5f4; /* used */
@@ -23,7 +22,7 @@
   /* Links */
   --link-color: #84888e; /* used */
   --hover-color: #f9fcfe; /* used */
-  --active-color: #f52727; /* used */
+  --active-color: #000000; /* used */
 
   /* From styletile */
 
@@ -72,11 +71,10 @@
   --headline-bg-color-inverted: #000000;
   --bodytext-bg-color: #ff0000;
   --bodytext-bg-color-inverted: #ff0000;
-  --cta-text-bg-color: #F72682; /*header cta knapper, ins og reg?!!*/
   --cta-text-bg-color-inverted: #ff0000;
-  --followup-text-bg-color: #6d6d6d; /*CTA baggrund*/
+  --followup-text-bg-color: #e40000; /*CTA baggrund*/
   --followup-text-bg-color-inverted: #ff0000;
-  --form-background-color: #ff0000;
+  --form-background-color: #F72682;
   --form-text-color: #000000;
   --formfield-background-color: #ff0000;
   --formfield-background-color-active: #ff0000;

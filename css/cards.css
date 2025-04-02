@@ -87,11 +87,8 @@
   width: max-content;
 }
 .menuItem {
-  display: inline-block;
   padding: 0.3rem 0.5rem;
   border-radius: var(--border-radius);
-  background-color: var(--h-cta-text-bg-color);
-  color: var(--followup-text-color);
   text-align: center;
   text-decoration: none;
   width: max-content;

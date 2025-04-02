@@ -23,16 +23,50 @@
           <li><a class="menuItem" href="register.html">Indberet</a></li>
         </ul>
       </nav>
-    </header>
+    </header> 
 
     <main>
       <h1>INDBERET</h1>
-      <section id="form-section">
+      <section id="form-sec">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h3>Ansøgning om dimensionsskifte</h3>
         </article>
-        <form id="webform"></form>
+        <form id="webform">
+          <section class="flex_c form_g">
+          <label for="age">Er du fyldt 25?</label>
+          <div><button class="marg_5">Ja</button><button class="marg_1">Nej</button></div></section>
+          <section class="flex_r form_g"><div class="flex_c">
+            <label for="f-navn">Fornavn</label>
+            <input id="f-navn" type="text">
+          </div>
+        <div class="flex_c"><label for="e-navn">Efternavn</label>
+        <input id="e-navn" type="text"></div></section>
+        <section class="form_g">
+          <label for="">Hvorfor ønsker du at skifte dimension?</label>
+          <div><input id="op1" type="checkbox"><label for="op1">Tyngdekraften her er for let</label></div>
+          <div><input id="op2" type="checkbox"><label for="op2">Nye udfordringer</label></div>
+          <div><input id="op3" type="checkbox"><label for="op3">For at undgå straf fra loven</label></div>
+          <div><input id="op4" type="checkbox"><label for="op4">Jeg vil finde en verden, hvor alle skyer er formet som katte</label></div>
+          <div><input id="op5" type="checkbox"><label for="op5">Nysgerrig</label></div>
+          <div><input id="op6" type="checkbox"><label for="op6">Jeg er træt af at være den eneste, der ikke kan synge i brusebadet</label></div>
+        </section>
+        <section class="flex_c form_g">
+          <label for="drop_d">Hvor længe har du ønsket at skifte dimension?</label>
+          <select name="drop_down" id="drop_d">
+            <option value="0-3 mdr."></option>
+            <option value="">3-12 mdr</option>
+            <option value="">1-2 år</option>
+            <option value="">2-5 år</option>
+            <option value="">5+ år</option>
+          </select>
+        </section>
+        <section class="form_g"><label for="minder">Hvor villig er du til at miste dine minder fra din nuværende dimension</label>
+        <input id="minder" type="range"></section>
+        <section class="form_g"><label for="samtyk">Jeg giver hermed sammentykke til at blive observeret af multidimensionalt panelet</label>
+        <input type="checkbox" required></section>
+        <section><button id="submit" type="submit">Indsend</button></section>
+
+        </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>

@@ -131,7 +131,7 @@ a {
 }
 header nav li a {
   margin: 1.5rem;
-  background-color: var(--cta-text-bg-color);
+  background-color: var(--h-cta-text-bg-color);
   color: var(--cta-text-color);
   font-size: var(--cta-text-size);
   padding: 0.5rem 1rem;
