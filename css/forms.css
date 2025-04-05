@@ -1,3 +1,6 @@
+label {
+  font-family: rubik_r;
+}
 #form-sec {
   border-radius: 37px;
   background-image: url(../aset/tern.png) ;
@@ -36,7 +39,7 @@ flex-direction: row;}
 flex-direction: column;}
 
 #drop_d {max-width: 100px;}
-.marg_5 {margin-right: 5px;
+.marg_5_10 {margin-right: 10px;
 margin-top: 5px;}
 
 .form_g {
@@ -44,4 +47,25 @@ margin-top: 5px;}
   border-radius: 0;
   margin: 0;
   max-width: 600px;
+}
+.btn_y_n {
+  background-color: #F72682;
+  color: white;
+  padding: 4px;
+  font-family: var(--headline-font);
+  font-size: 16px;}
+  .btn_y_n:hover {
+    background-color: #d6affb;
+  }
+fieldset {
+  border: none;
+}
+.marg_l {
+  margin-left: 5px;
+}
+.felt_330 {
+  max-width: 330px;
+}
+input:user-invalid {
+  border-color: red;
 }
