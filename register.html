@@ -36,8 +36,8 @@
             <section class="flex_c form_g">
               <label for="age">Er du fyldt 25?</label>
               <div class="flex_r">
-                <div class="marg_5_10"><label for="ja_nej">Ja</label><input name="ja_nej" id="ja" type="radio" /></div>
-                <div class="marg_5_10"><label for="ja_nej">Nej</label> <input name="ja_nej" id="nej" type="radio" /></div>
+                <div class="marg_5_10"><label for="ja_nej">Ja</label><input name="ja_nej" id="ja" type="radio" value="ja" /></div>
+                <div class="marg_5_10"><label for="ja_nej">Nej</label> <input name="ja_nej" id="nej" type="radio" value="nej" /></div>
               </div>
             </section>
             <section class="flex_r form_g">
@@ -52,22 +52,22 @@
           <fieldset>
             <section class="form_g">
               <label for="">Hvorfor ønsker du at skifte dimension?</label>
-              <div class="marg_5_10"><input id="op1" type="checkbox" /><label for="op1">Tyngdekraften her er for let</label></div>
-              <div class="marg_5_10"><input id="op2" type="checkbox" /><label for="op2">Nye udfordringer</label></div>
-              <div class="marg_5_10"><input id="op3" type="checkbox" /><label for="op3">For at undgå straf fra loven</label></div>
-              <div class="marg_5_10"><input id="op4" type="checkbox" /><label for="op4">Jeg vil finde en verden, hvor alle skyer er formet som katte</label></div>
-              <div class="marg_5_10"><input id="op5" type="checkbox" /><label for="op5">Nysgerrig</label></div>
-              <div class="marg_5_10"><input id="op6" type="checkbox" /><label for="op6">Jeg er træt af at være den eneste, der ikke kan synge i brusebadet</label></div>
-              <div class="marg_5_10"><input type="checkbox" /><label for="op7">Andet</label><input id="op7" class="marg_l" type="text" /></div>
+              <div class="marg_5_10"><input id="op1" name="options" type="checkbox" value="Tyngdekraften her er for let" /><label for="op1">Tyngdekraften her er for let</label></div>
+              <div class="marg_5_10"><input id="op2" name="options" type="checkbox" value="Nye udfordringer" /><label for="op2">Nye udfordringer</label></div>
+              <div class="marg_5_10"><input id="op3" name="options" type="checkbox" value="For at undgå straf fra loven" /><label for="op3">For at undgå straf fra loven</label></div>
+              <div class="marg_5_10"><input id="op4" name="options" type="checkbox" value="Jeg vil finde en verden, hvor alle skyer er formet som katte" /><label for="op4">Jeg vil finde en verden, hvor alle skyer er formet som katte</label></div>
+              <div class="marg_5_10"><input id="op5" name="options" type="checkbox" value="Nysgerrig" /><label for="op5">Nysgerrig</label></div>
+              <div class="marg_5_10"><input id="op6" name="options" type="checkbox" value="Jeg er træt af at være den eneste, der ikke kan synge i brusebadet" /><label for="op6">Jeg er træt af at være den eneste, der ikke kan synge i brusebadet</label></div>
+              <div class="marg_5_10"><input id="op7" type="checkbox" /><label for="op7text">Andet</label><input id="op7text" class="marg_l" type="text" /></div>
             </section>
             <section class="flex_c form_g">
               <label for="drop_d">Hvor længe har du ønsket at skifte dimension?</label>
               <select name="drop_down" id="drop_d" required>
-                <option value="">0-3 mdr.</option>
-                <option value="">3-12 mdr</option>
-                <option value="">1-2 år</option>
-                <option value="">2-5 år</option>
-                <option value="">5+ år</option>
+                <option value="0-3 mdr.">0-3 mdr.</option>
+                <option value="3-12 mdr">3-12 mdr</option>
+                <option value="1-2 år">1-2 år</option>
+                <option value="2-5 år">2-5 år</option>
+                <option value="5+ år">5+ år</option>
               </select>
             </section>
           </fieldset>
@@ -75,7 +75,7 @@
             <section class="form_g flex_c"><label for="minder">Hvor villig er du til at miste dine minder fra din nuværende dimension <span id="range-value">0</span>%</label> <input name="minder" id="minder" type="range" min="0" max="100" value="0"/></section>
           </fieldset>
           <fieldset>
-            <section class="form_g"><label for="samtyk">Jeg giver hermed sammentykke til at blive observeret af multidimensionalt panelet</label> <input type="checkbox" required /></section>
+            <section class="form_g"><label for="samtyk">Jeg giver hermed sammentykke til at blive observeret af multidimensionalt panelet</label> <input id="samtykke" type="checkbox" required /></section>
             <section><button id="submit" class="btn_y_n" type="submit">Indsend</button></section>
           </fieldset>
         </form>
