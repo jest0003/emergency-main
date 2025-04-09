@@ -45,7 +45,11 @@ function submitForm(e) {
     document.querySelector('#sumMinder').textContent = `${slider.value}%`;
     document.querySelector("#sumSamtykke").textContent = document.querySelector('#samtykke').checked ? "Ja" : "Nej";
 }
-
+/*reset*/
+document.querySelector ("#reset_btn") .addEventListener("click", reset);
+function reset() {
+document.querySelector("#webform").reset();
+document.querySelector("#sum").style.display = "none";}
 
 
 
