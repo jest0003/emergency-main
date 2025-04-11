@@ -108,10 +108,44 @@
 #dialog_1::backdrop, #dialog_2::backdrop, #dialog_3::backdrop, #dialog_4::backdrop {
   background-color: rgba(0, 0, 0, 0.441);
 }
-form img {
+form img {display: block;
 max-height: 350px;
 width: auto;
+margin: auto;
+margin-top: 7px;
 }
 :modal {
-  background-color: ;
+  background-color: #cbf4fc;
 }
+.sheer_bg {
+  background-color: #e9f9fc;
+  border-radius: 10px;
+}
+#teaser_1 {
+  background-image: url(/aset/mirror_world_teaser.webp);
+  background-size: cover;
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+}
+#teaser_2 {
+  background-image: url(/aset/IMG_9851.jpg);
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+.pan_animation {
+  animation: pan 5s linear infinite alternate;
+}
+@keyframes pan {
+  form {background-position: 0% 0%;}
+  to {background-position:  100% 0%;}
+}
+.up_down_animation {
+  animation: up_down 1s linear infinite alternate;
+}
+@keyframes up_down {
+from {background-position: 0% 40%;}
+to {background-position: 0%, 100%;}
+}
+.stop {
+  animation-play-state: paused;}

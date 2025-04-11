@@ -48,12 +48,12 @@
   --headline-color-inverted: #ffffff;
   --bodytext-color: #F72682;
   --bodytext-color-inverted: #ff0000;
-  --cta-text-color: #fffae2;
+  --cta-text-color: #ffffff;
   --cta-text-color-inverted: #000000;
-  --followup-text-color: #000000;
-  --followup-text-color-inverted: #fcfeff;
+  --followup-text-color: #ffffff;
+  --followup-text-color-inverted: #ffffff;
   --formfield-text-color: #000000;
-  --form-submit-color: #fffae2;
+  --form-submit-color: #ffffff;
   --form-submit-color-inverted: #000000;
 
   /* Background colors */
@@ -72,7 +72,7 @@
   --bodytext-bg-color: #ff0000;
   --bodytext-bg-color-inverted: #ff0000;
   --cta-text-bg-color-inverted: #ff0000;
-  --followup-text-bg-color: #e40000; /*CTA baggrund*/
+  --followup-text-bg-color: #F72682; /*CTA baggrund*/
   --followup-text-bg-color-inverted: #ff0000;
   --form-background-color: #F72682;
   --form-text-color: #000000;

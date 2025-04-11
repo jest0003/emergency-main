@@ -171,3 +171,6 @@ footer a {
   height: 2px;
   background-color: #F72682;
 }
+.dim_logo {
+  max-height: 40px;
+}
