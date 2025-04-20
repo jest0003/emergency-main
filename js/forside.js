@@ -30,11 +30,13 @@ function setupArticle(article) {
 
     openBtn.addEventListener("click", openDia);
     function openDia(){
+        dialog.querySelector("img").scrollIntoView();
         dialog.showModal();
     }
     closeBtn.addEventListener ("click", function() {dialog.close();})
 }
 const art_ = document.querySelectorAll (".news_card");
+
 
 art_.forEach(setupArticle);
 
