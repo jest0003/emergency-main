@@ -57,6 +57,9 @@ footer ul {
   grid-template-rows: repeat(auto-fit, minmax(50px, min-content));
   gap: 0;
 }
+.flex_end {display: flex;
+justify-content: flex-end;
+margin-right: 10px;}
 
 @media (width > 600px) {
   #frontpage > main {

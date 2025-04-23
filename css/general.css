@@ -174,3 +174,8 @@ footer a {
 .dim_logo {
   max-height: 40px;
 }
+legend {
+  color: grey;
+  margin-top: 5px;
+  margin-right: 5px;
+}

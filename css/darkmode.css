@@ -49,7 +49,7 @@
     --bodytext-color: #F72682;
    /*  --bodytext-color-inverted: #ff0000; */
     --cta-text-color: #000000;
-    --cta-text-color-inverted: #ffffff;
+    --cta-text-color-inverted: #000000;
     --followup-text-color: #000000;
     --followup-text-color-inverted: #000000;
     --formfield-text-color: #ffffff;
@@ -61,14 +61,14 @@
     --header-background-color: #FBAFCB;
     --article-background-color: #cbf4fc;
     --main-disclamer-background-color: #F72682;
-    --daily-background-color: #528f72;
+    --daily-background-color: #559b78;
    /*  --news-background-color: #ff0000; */
     --news-background-color-inverted: #FBAFCB;
     --info-background-color: #6f737e;
     --h-cta-text-bg-color: #F72682;
     /* --headline-bg-color: #ff0000; */
     --headline-bg-color-alert: #F72682;
-    --headline-bg-color-inverted: #777777;
+    --headline-bg-color-inverted: #484848;
     /* --bodytext-bg-color: #ff0000;
     --bodytext-bg-color-inverted: #ff0000;
     --cta-text-bg-color-inverted: #ff0000; */
