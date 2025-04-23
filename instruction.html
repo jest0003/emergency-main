@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link id="lightmode" rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
@@ -214,12 +214,11 @@
     <span id="footer_span"></span>
     <footer>
       <nav class="some">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
+        <ul><legend id="switcher">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn" type="checkbox" />
+            <span class="slider"></span
+          ></label></ul>
       </nav>
       <nav class="another">
         <ul>
@@ -239,5 +238,6 @@
       </nav>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/darkmode.js"></script>
   </body>
 </html>

@@ -86,3 +86,38 @@
   --info-bg-color-yellow: #cbf4fc;
   --info-bg-color-green: #dbc8fa;
 }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var( --main-disclamer-background-color);
+  border-radius: 34px;
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 3px;
+  background-color: var(--header-background-color);
+  border-radius: 50%;
+  transition: 0.4s;
+}
+input:checked + .slider::before {
+  translate: 100% 0;
+}

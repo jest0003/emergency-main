@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link id="lightmode" rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
@@ -53,6 +53,13 @@
         </article>
       </section>
       <section id="breaking">
+        <ul>
+          <legend id="switcher">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn" type="checkbox" />
+            <span class="slider"></span
+          ></label>
+        </ul>
         <article class="news_card">
           <img class="news_img" src="./aset/5tegn_art.png" alt="news_img" />
           <h3>5 tegn på, at din refleksion ikke længere er dig</h3>
@@ -192,14 +199,7 @@
     </main>
     <span id="footer_span"></span>
     <footer>
-      <nav class="some">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
+      <nav class="some"></nav>
       <nav class="another">
         <ul>
           <li><a href="">link</a></li>
@@ -218,5 +218,6 @@
       </nav>
     </footer>
     <script src="js/forside.js"></script>
+    <script src="js/darkmode.js"></script>
   </body>
 </html>
