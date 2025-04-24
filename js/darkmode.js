@@ -1,7 +1,5 @@
 const switcher = document.querySelector("#switcher");
 const css = document.querySelector("#lightmode");
-console.log (css.href);
-
 const btn = document.querySelector ("#switchBtn");
 btn.addEventListener ("click", change);
 

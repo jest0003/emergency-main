@@ -42,28 +42,18 @@ document.querySelector ("#sigil_h") .addEventListener("mouseout", sigil_h_out);
 document.querySelector ("#sigil_h") .addEventListener("click", sigil_h_c);
 
 function sigil_h() {
-    console.log ("sigil lights");
     document.querySelector ("#sigil_h") .style.opacity = "80%";
 }
 function sigil_h_out() {
-    console.log ("back to normal");
     document.querySelector ("#sigil_h") .style.opacity = "0%" ;
 }
 function sigil_h_c() {
-    console.log ("klikket")
-    animateBox ()
-    /* document.querySelector ("#efficiency") .classList.remove ("hide");
-    document.querySelector ("#efficiency") .classList.add("fadeIn");
-    document.querySelector("#efficiency") .addEventListener ("animationend", cleanup); */
-
-    
     document.querySelector(".info-text > h2") .textContent = "RENSNINGS RITUAL"
     document.querySelector(".info-text > article > p") .innerHTML = "<p>Hvis du vil have din egen reflektion tilbage, kan det opnåes ved at udføre dette rensnings ritual.</p><p><strong>Tilgangs metode:</strong> <ol><li>Mix ingridienserne sammen i en skål</li><br><li>Tegn symbolet på en reflekterende overflade, med de mixede ingridienser.</li><br><li>Sig disse magiske ord:<br> <br>abracadabra<br>sim sala bim<br>micrato, raepy sathonich<br>voilà</li></ol></p>"
     document.querySelector("#efficiency") .innerHTML = "<h3>Ingridienser</h3><p></p><ul><li>Første ingridiens</li><li>Anden ingridiens</li><li>Tredje ingridiens</li><li>Fjerde ingridiens</li><li>Femte ingridiens</li></ul>"
     document.querySelector("#requirement") .innerHTML = "Box 2...."
 }
 function cleanup () {
-    console.log ("clean up");
     document.querySelector ("#requirement") .classList.remove ("fadeIn");
     document.querySelector ("#efficiency") .classList.remove ("fadeIn");
     document.querySelector ("#efficiency") .removeEventListener ("animationend", cleanup);
